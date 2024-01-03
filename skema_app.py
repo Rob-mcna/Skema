@@ -33,7 +33,7 @@ st.write(
 
 # Create the SQL connection to pets_db as specified in your secrets file.
 
-pip install matplotlib
+apt-get install python3-matplotlib
 
 conn = st.connection('pets_db', type='sql')
 
