@@ -11,7 +11,7 @@ import streamlit as st
 
 st.write('Hello World')
 
-!pip install SQLAlchemy==2.0
+install SQLAlchemy==2.0
 
 # .streamlit/secrets.toml
 
