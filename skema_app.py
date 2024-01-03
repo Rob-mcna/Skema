@@ -32,6 +32,9 @@ st.write(
 
 
 # Create the SQL connection to pets_db as specified in your secrets file.
+
+pip install SQLAlchemy
+
 conn = st.connection('pets_db', type='sql')
 
 # Insert some data with conn.session.
