@@ -30,7 +30,7 @@ st.write(
 #my_db.connect(**st.secrets.db_credentials)
 # streamlit_app.py
 
-import SQLAlchemy as sql
+import sqlalchemy as sql
 
 # Create the SQL connection to pets_db as specified in your secrets file.
 conn = st.connection('pets_db', type='sql')
