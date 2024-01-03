@@ -11,7 +11,7 @@ import streamlit as st
 
 st.write('Hello World')
 
-pip install SQLAlchemy mysqlclient
+!pip install SQLAlchemy mysqlclient
 
 # .streamlit/secrets.toml
 
