@@ -33,7 +33,12 @@ st.write(
 
 # Create the SQL connection to pets_db as specified in your secrets file.
 
+git clone https://github.com/sqlalchemy/sqlalchemy.git
+cd sqlalchemy
+pip install -r requirements.txt
 python setup.py install
+
+
 
 conn = st.connection('pets_db', type='sql')
 
