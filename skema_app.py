@@ -33,7 +33,7 @@ st.write(
 
 # Create the SQL connection to pets_db as specified in your secrets file.
 
-git clone git://github.com/kvesteri/sqlalchemy-utils.git
+pip install matplotlib
 
 conn = st.connection('pets_db', type='sql')
 
