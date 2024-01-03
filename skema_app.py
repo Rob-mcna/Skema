@@ -7,6 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1hxs6ennIijetj1BSKzbRWThs_s7piYph
 """
 
-install streamlit as st
+import streamlit as st
 
 st.write('Hello World')
